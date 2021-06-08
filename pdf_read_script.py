@@ -49,7 +49,7 @@ def extract_information(pdf_path):
     email_result = re.findall("([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)", emailvalue)
 
     #techstack key words
-    search_keywords=['Django','Vue','Javascript' , 'python' , 'java','ruby' , 'AWS' , 'C++' , 'C#' , 'PHP' , 'Perl']
+    search_keywords=['Django','Vue','Javascript' , 'python' , 'java','ruby' , 'AWS' , 'C++' , 'C#' , 'PHP' , 'Perl','SQL','Mongo']
 
     lst = []
 
